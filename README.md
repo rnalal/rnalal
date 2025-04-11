@@ -1,4 +1,4 @@
-## Hi there 👋
+# 👋 안녕하세요, 백엔드 개발자를 준비 중인 **홍길동**입니다!
 
 <!--
 **rnalal/rnalal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
