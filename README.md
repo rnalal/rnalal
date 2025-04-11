@@ -16,8 +16,7 @@
 - 컴퓨터활용능력 2급, SQLD , 리눅스마스터2급
 - 파리바게트 근무 (4년 5개월), 다양한 서포터즈 활동 경험
 
-### 📫 연락처
-- Email: youngk8251@naver.com
+### 📫 
 - Blog: 🔗[개발 블로그 보러가기](https://velog.io/@youngk8251/posts)
 <!--
 **rnalal/rnalal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
