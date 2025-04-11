@@ -17,7 +17,7 @@
 - 파리바게트 근무 (4년 5개월), 다양한 서포터즈 활동 경험
 
 ### 📫 
-- Blog: 🔗[개발 블로그 보러가기](https://velog.io/@youngk8251/posts)
+- Blog: 🔗[기술 블로그 보러가기](https://velog.io/@youngk8251/posts)
 <!--
 **rnalal/rnalal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
