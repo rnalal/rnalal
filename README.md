@@ -18,7 +18,7 @@
 - 게시글 CRUD, 임시저장, 좋아요 토글, 이미지 업로드
 - 관리자 페이지: 통계 대시보드, 회원 관리, Q&A 답변
 - Ajax 카테고리 필터링 / 세션 알림 등 사용자 중심 기능
-<br>
+
 ### 🧷 GOBONG 반려견 커뮤니티 SNS 프로젝트
 - [🔗 GitHub Repo 보기](https://github.com/rnalal/gobong)
 - > **반려동물 SNS 기반 커뮤니티 플랫폼**
