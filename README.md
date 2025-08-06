@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hi, I'm Jaeyoung Jeon (전재영)</h1>
-<p> <strong>사용자 행동 데이터를 기반으로 한 서비스 개선</strong>에 관심이 많습니다.</p>
+<p align="center">백엔드 기반의 풀스택 개발자 지망생으로, <strong>사용자 행동 데이터를 기반으로 한 서비스 개선</strong>에 관심이 많습니다.</p>
 
 ---
 
