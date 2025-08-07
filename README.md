@@ -15,7 +15,7 @@
 > 더 나은 것을 고민하는 개발자가 되기 위한 노력들 <br>
 
 **1. Backend-Study-Daily**
--  [🔗 GitHub Repo 보기](https://github.com/rnalal/backend-study-daily))
+-  [🔗 GitHub Repo 보기](https://github.com/rnalal/backend-study-daily)
 
 **2. Frotend-Study-Daily**
 -  [🔗 GitHub Repo 보기](https://github.com/rnalal/frontend-study-daily)
