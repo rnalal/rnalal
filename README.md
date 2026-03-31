@@ -3,32 +3,6 @@
 
 ---
 
-## 🛠️ Tech Stack
-
-### 💻 Backend
-- Java 11, Java 17
-- Spring Framework (Spring MVC)
-- Spring Boot
-- MyBatis, JPA (Hibernate)
-- Spring Security, JWT
-
-### 🌐 Frontend
-- HTML, CSS, JavaScript
-- jQuery, JSP, Thymeleaf
-- Bulma CSS
-
-### 🗄️ Database
-- MySQL
-- Oracle
-
-### ⚙️ Tools & Environment
-- Git, GitHub
-- Maven
-- Apache Tomcat
-- IntelliJ IDEA, STS
-
----
-
 ## 📁 Portfolio Projects
 
 ### 🧷 JBB 베이킹 커뮤니티 프로젝트
@@ -66,12 +40,22 @@
 - JSP 기반 사용자 피드 및 UI 구성
 
 ---
-
 ## 🧩 Certification
 - 정보처리기사
 - SQLD
 - 컴퓨터활용능력 2급
 - 리눅스마스터 2급
+---
+
+## 🛠️ Tech Stack
+### 💻 Backend
+- Java 11, Java 17, Spring Framework (Spring MVC), Spring Boot, MyBatis, JPA (Hibernate), Spring Security, JWT
+### 🌐 Frontend
+- HTML, CSS, JavaScript, jQuery, JSP, Thymeleaf, Bulma CSS
+### 🗄️ Database
+- MySQL, Oracle
+### ⚙️ Tools & Environment
+- Git, GitHub, Maven, Apache Tomcat, IntelliJ IDEA, STS
 
 ---
 
