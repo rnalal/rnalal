@@ -13,7 +13,7 @@
 
 ## 📁 Portfolio Projects
 ### 🧷 JBB 게시판 프로젝트
-- [🔗 GitHub Repo 보기](https://github.com/rnalal/JBB)
+- [🔗 GitHub Repo 보기](https://github.com/rnalal/JBB_NEW)
 > **Java 기반 게시판 + 관리자 인사이트 기능**
 - 게시글 CRUD, 임시저장, 좋아요 토글, 이미지 업로드
 - 관리자 페이지: 통계 대시보드, 회원 관리, Q&A 답변
