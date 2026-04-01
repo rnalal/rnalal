@@ -6,8 +6,8 @@
 ## 📁 Portfolio Projects
 
 ### 🧷 JBB 베이킹 커뮤니티 프로젝트
-🔗 [GitHub Repo 보기](https://github.com/rnalal/JBB_NEW)
-🌐 [cafe24 배포 - 사용자 페이지] (http://youngk8251.cafe24.com/jbb/)
+🔗 [GitHub Repo 보기](https://github.com/rnalal/JBB_NEW) <br>
+🌐 [cafe24 배포 - 사용자 페이지] (http://youngk8251.cafe24.com/jbb/) <br>
 🌐 [cafe24 배포 - 관리자 페이지] (http://youngk8251.cafe24.com/jbb/adminlogin) | (임시ID: admin, 임시PWD: 1234)
 
 > 사용자와 관리자를 분리한 베이킹 커뮤니티 플랫폼
@@ -20,8 +20,8 @@
 ---
 
 ### 🧷 RUNGAME 러닝 게임 프로젝트
-🔗 [GitHub Repo 보기](https://github.com/rnalal/run-game)
-🌐 [cafe24 배포 - 사용자 페이지] (http://youngk8251.cafe24.com/)
+🔗 [GitHub Repo 보기](https://github.com/rnalal/run-game) <br>
+🌐 [cafe24 배포 - 사용자 페이지] (http://youngk8251.cafe24.com/) <br>
 🌐 [cafe24 배포 - 관리자 페이지] (http://youngk8251.cafe24.com/rg-admin/login) | (임시ID: admin@naver.com , 임시PWD: 123456789)
 
 > JWT 인증 기반의 웹 게임 서비스
