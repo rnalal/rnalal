@@ -1,5 +1,5 @@
-<h1 align="center">👋 Hi </h1>
-<p align="center">안녕하세요. 소통과 기록을 중요하게 생각하는 개발자입니다.</p>
+<h1 align="center">👋 Hi , I'm Jaeyoung Jeon (전재영)</h1>
+<p align="center">안녕하세요. 소통과 기록을 중요하게 생각하는 개발자, 전재영입니다.</p>
 
 ---
 
