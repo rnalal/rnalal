@@ -7,7 +7,7 @@
 
 ### 🧷 JBB 베이킹 커뮤니티 프로젝트
 🔗 [GitHub Repo 보기](https://github.com/rnalal/JBB_NEW) <br>
-🌐 [cafe24 배포 - 사용자 페이지] (https://jaeyoung2.store/jbb//) <br>
+🌐 [cafe24 배포 - 사용자 페이지] (https://jaeyoung2.store/jbb/) <br>
 🌐 [cafe24 배포 - 관리자 페이지] (https://jaeyoung2.store/jbb/adminlogin) | (임시ID: admin, 임시PWD: 1234)
 
 > 사용자와 관리자를 분리한 베이킹 커뮤니티 플랫폼
