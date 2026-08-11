@@ -10,11 +10,19 @@
 🌐 [cafe24 배포 - 사용자 페이지] (https://jaeyoung2.store/jbb/) <br>
 🌐 [cafe24 배포 - 관리자 페이지] (https://jaeyoung2.store/jbb/adminlogin) | (임시ID: admin, 임시PWD: 1234)
 
-> 실시간 알림기능과 사용자 중심 개선을 적용한 베이킹 커뮤니티 웹 서비스
+> 게시글, 회원 관리와 Redis/Caffeine 기반 성능 최적화를 적용한 베이킹 커뮤니티 웹 서비스
 
-- WebSocket+STOMP 기반 양방향 통신 구조 설계해 Polling 방식의 불필요한 HTTP 요청 제거 및 서버 푸시 기반 실시간 알림 서비스 구현
-- HttpSession 기반 조회 상태 관리 로직을 구현해 동일 사용자의 반복 조회로 발생하던 조회수 중복 증가 문제 해결 및 사용자 행동 기반 데이터 정합성과 조회수 신뢰성 확보
-- PRG 패턴 적용해 새로고침 시 발생하는 조회수 중복 증가 문제를 해결하고, 중복 요청 방지 및 데이터 정합성을 확보하는 요청 흐름 구조를 구현
+- Redis INCR + Scheduler 기반 조회수 Write-Behind 구조 구현
+  - 조회수 10회 증가 기준 DB UPDATE 10회 -> 1회, UPDATE 횟수 약 90% 감소
+  - Soft Delete와 실제 장애를 구분하고, 장애 시 Key 유지/재시도 및 Key별 예외 처리로 재처리/부분 실패 격리 구조 확보
+- Caffeine Cache 적용 및 데이터 의존성 기반 선택적 캐시 무효화 구조 개선
+  - 게시글 약 10,000건 기준 /board/list 39.46ms -> 1.73ms, 약 95.6% 응답시간 감소
+  - 동일 요청 3회 기준 주요 SQL 실행 횟수 9회 -> 3회, 약 66.7% 감소
+  - afterCommit() 기반 캐시 무효화로 DB-Cache 정합성 강화
+- 게시글 삭제 구조를 Hard Delete에서 Soft Delete 기반 LifeCycle로 확장
+  - Soft Delete -> 관리자 복구 -> 30일 경과 미복구 데이터 Hard Delete Batch 구조 구현
+  - 삭제 이력 관리 및 DB/이미지/Redis 조회수 Key/인기글 Member 정리
+  - 건별 REQUIRES_NEW Transaction으로 Batch 부분 실패 격리
 
 ---
 
